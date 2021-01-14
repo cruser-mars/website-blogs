@@ -1,0 +1,14 @@
+.post-banner {
+  padding: var(--grid-gap);
+}
+
+.post-banner__container {
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0;
+  max-width: 1400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
