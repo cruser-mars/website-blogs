@@ -1,14 +1,15 @@
 .category-banner {
-    height: 180px;
+    height: 240px;
     background-color: #f1f2f8;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 70px;
 }
 
 .category-banner__title {
 font-weight: 450;
-font-size: 30px;
+font-size: 35px;
 line-height: 38px;
 display: flex;
 color: var(--accent-color);

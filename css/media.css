@@ -58,7 +58,6 @@
   }
 }
 
-
 @media (max-width: 768px) {
   :root {
     --grid-gap: 30px;
@@ -67,7 +66,7 @@
   .blog-post--main {
     height: auto;
   }
-  
+
   .post-grid {
     display: block;
   }
@@ -112,8 +111,39 @@
   .post-links__link--prev {
     margin-bottom: 20px;
   }
+  .phone {
+    display: none;
+  }
+  .phone-menu {
+    display: block;
+  }
+  .blog-post__descr {
+    padding-right: 0;
+  }
+  .humburger {
+    display: block;
+  }
+  .header-search {
+    padding: 15px 5px;
+  }
+  .header-search__btn span {
+    display: none;
+  }
+  .header-search__btn {
+    width: 74px;
+  }
+  .header-search__input {
+    margin-right: 10px;
+  }
+  .header-search__form {
+padding-top: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .category-banner__title {
+    font-size: 30px;
+  }
 }
-
 
 @media (max-width: 375px) {
   .sub-form {

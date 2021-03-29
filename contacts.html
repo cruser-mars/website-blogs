@@ -4,12 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная | Блог</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" /> 
     <link rel="stylesheet" href="css/contacts.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/post.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/category.css" />
   </head>
   <body>
+    <div class="menu">
+      <button class="menu__close btn-reset" aria-label="close menu">
+        <span class="menu__close-line"></span>
+        <span class="menu__close-line"></span>
+      </button>
+      <nav class="menu__nav">
+        <ul class="menu__ul list-reset">
+          <li class="menu__li"><a href="index.html" class="menu__link">Главная</a></li>
+          <li class="menu__li"><a href="about-us.html" class="menu__link">О нас</a></li>
+          <li class="menu__li"><a href="contacts.html" class="menu__link">Контакты</a></li>
+          <li class="menu__li"><a href="#" class="menu__link search-link__close">Поиск</a></li>
+          <a href="tel:+798788787" class="phone phone-menu">+7 (987) 887-87</a>
+        </ul>
+      </nav>
+    </div>
     <header class="header">
       <div class="container header__container">
         <a href="index.html" class="logo header__logo">
@@ -30,6 +47,13 @@
           </nav>
           <a href="tel:+798788787" class="phone">+7 (987) 887-87</a>
         </div>
+        <div class="humburger">
+          <button class="btn-menu btn-reset" aria-label="Open menu">
+             <span class="btn-menu__box">
+               <span class="btn-menu__inner"></span>
+             </span>
+            </button>
+          </div>
       </div>
       <div class="header-search header-search__contacts">
         <button class="btn-reset header-search__close">
