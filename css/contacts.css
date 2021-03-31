@@ -37,7 +37,7 @@
   font-size: 18px;
   line-height: 23px;
   color: var(--accent-color);
-  background-image: url(/img/address.svg);
+  background-image: url(../img/address.svg);
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 24px;
@@ -69,19 +69,19 @@
 }
 
 .social__link--fb {
-  background-image: url(/img/fb.svg);
+  background-image: url(../img/fb.svg);
 }
 
 .social__link--vk {
-  background-image: url(/img/vk.svg);
+  background-image: url(../img/vk.svg);
 }
 
 .social__link--insta {
-  background-image: url(/img/insta.svg);
+  background-image: url(../img/insta.svg);
 }
 
 .social__link--tw {
-  background-image: url(/img/tw.svg);
+  background-image: url(../img/tw.svg);
 }
 
 .callback-form__input {

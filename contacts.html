@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная | Блог</title>
-    <link rel="stylesheet" href="css/style.css" /> 
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/contacts.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/post.css" />
@@ -19,10 +19,18 @@
       </button>
       <nav class="menu__nav">
         <ul class="menu__ul list-reset">
-          <li class="menu__li"><a href="index.html" class="menu__link">Главная</a></li>
-          <li class="menu__li"><a href="about-us.html" class="menu__link">О нас</a></li>
-          <li class="menu__li"><a href="contacts.html" class="menu__link">Контакты</a></li>
-          <li class="menu__li"><a href="#" class="menu__link search-link__close">Поиск</a></li>
+          <li class="menu__li">
+            <a href="index.html" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__li">
+            <a href="about-us.html" class="menu__link">О нас</a>
+          </li>
+          <li class="menu__li">
+            <a href="contacts.html" class="menu__link">Контакты</a>
+          </li>
+          <li class="menu__li">
+            <a href="#" class="menu__link search-link--mobile">Поиск</a>
+          </li>
           <a href="tel:+798788787" class="phone phone-menu">+7 (987) 887-87</a>
         </ul>
       </nav>
@@ -42,24 +50,26 @@
               <li class="nav__item">
                 <a href="#" class="nav__link nav__link--current">Контакты</a>
               </li>
-              <li class="nav__item"><a href="#" class="nav__link search-link">Поиск</a></li>
+              <li class="nav__item">
+                <a href="#" class="nav__link search-link">Поиск</a>
+              </li>
             </ul>
           </nav>
           <a href="tel:+798788787" class="phone">+7 (987) 887-87</a>
         </div>
         <div class="humburger">
           <button class="btn-menu btn-reset" aria-label="Open menu">
-             <span class="btn-menu__box">
-               <span class="btn-menu__inner"></span>
-             </span>
-            </button>
-          </div>
+            <span class="btn-menu__box">
+              <span class="btn-menu__inner"></span>
+            </span>
+          </button>
+        </div>
       </div>
       <div class="header-search header-search__contacts">
         <button class="btn-reset header-search__close">
           <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0)">
-            <path d="M0.141602 0.834488C-0.0458984 0.646988 -0.0458984 0.334925 0.141602 0.140869C0.335657 -0.0466309 0.641164 -0.0466309 0.83522 0.140869L4.99737 4.31001L9.16651 0.140869C9.35401 -0.0466309 9.66608 -0.0466309 9.85314 0.140869C10.0472 0.334925 10.0472 0.647425 9.85314 0.834488L5.69099 4.99708L9.85314 9.16622C10.0472 9.35372 10.0472 9.66578 9.85314 9.85984C9.66564 10.0473 9.35358 10.0473 9.16651 9.85984L4.99737 5.69069L0.83522 9.85984C0.641164 10.0473 0.335657 10.0473 0.141602 9.85984C-0.0458984 9.66578 -0.0458984 9.35328 0.141602 9.16622L4.30375 4.99708L0.141602 0.834488Z" fill="#2F2222"/>
+            <path d="M0.141602 0.834488C-0.0458984 0.646988 -0.0458984 0.334925 0.141602 0.140869C0.335657 -0.0466309 0.641164 -0.0466309 0.83522 0.140869L4.99737 4.31001L9.16651 0.140869C9.35401 -0.0466309 9.66608 -0.0466309 9.85314 0.140869C10.0472 0.334925 10.0472 0.647425 9.85314 0.834488L5.69099 4.99708L9.85314 9.16622C10.0472 9.35372 10.0472 9.66578 9.85314 9.85984C9.66564 10.0473 9.35358 10.0473 9.16651 9.85984L4.99737 5.69069L0.83522 9.85984C0.641164 10.0473 0.335657 10.0473 0.141602 9.85984C-0.0458984 9.66578 -0.0458984 9.35328 0.141602 9.16622L4.30375 4.99708L0.141602 0.834488Z" fill="#C6C6C6"/>
             </g>
             <defs>
             <clipPath id="clip0">
@@ -67,10 +77,9 @@
             </clipPath>
             </defs>
             </svg>
-            
         </button>
         <form action="#" class="header-search__form">
-          <input type="search" class="header-search__input form-input">
+          <input type="search" class="header-search__input form-input" />
           <button class="header-search__btn form-btn btn-reset">
             <span>Найти</span>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,63 +87,99 @@
               </svg>
               
           </button>
-              </form>
+        </form>
       </div>
     </header>
     <main class="main">
       <section class="contacts">
         <div class="container contacts-container">
-        <h1 class="visually-hidden">Контакты</h1>
-        <div class="contacts__left">
-<h2 class="contacts__title blog-title">Контактная информация</h2>
-<a href="tel:+798788787" class="phone phone--contacts">+7 (987) 887-87</a>
-<address class="address">г. Санкт-Петербург, ул. Ленина, 9</address>
-<ul class="social list-reset">
-  <li class="social__item"><a href="#" class="social__link social__link--fb" aria-label="Наш фейсбук"></a></li>
-  <li class="social__item"><a href="#" class="social__link social__link--vk" aria-label="Наш вконтакте"></a></li>
-  <li class="social__item"><a href="#" class="social__link social__link--insta" aria-label="Наш инстаграм"></a></li>
-  <li class="social__item"><a href="#" class="social__link social__link--tw" aria-label="Наш твиттер"></a></li>
-</ul>
-        </div>
-        <div class="contacts__right">
-          <div class="contacts-form-wrapper">   
-       <h2 class="contacts__title blog-title">Напишите нам</h2>
-        <form action="#" class="callback-form">
-          <input type="text" class="form-input callback-form__input" placeholder="Ваше имя">
-          <input type="tel" class="form-input callback-form__input" placeholder="Ваш телефон">
-          <textarea class="form-input callback-form__textarea" placeholder="Сообщение..."></textarea>
-          <button class="callback-form__btn form-btn btn-reset">
-            <span>Отправить</span>
-            <svg
-              width="20"
-              height="21"
-              viewBox="0 0 20 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+          <h1 class="visually-hidden">Контакты</h1>
+          <div class="contacts__left">
+            <h2 class="contacts__title blog-title">Контактная информация</h2>
+            <a href="tel:+798788787" class="phone phone--contacts"
+              >+7 (987) 887-87</a
             >
-              <g clip-path="url(#clip0)">
-                <path
-                  d="M19.5857 9.85046L1.01474 1.27924C0.719033 1.14496 0.366184 1.22496 0.160475 1.47924C-0.046663 1.73352 -0.0538057 2.09494 0.143332 2.35636L6.25033 10.499L0.143332 18.6417C-0.0538057 18.9031 -0.046663 19.2659 0.159046 19.5188C0.297614 19.6917 0.504752 19.7845 0.714747 19.7845C0.816173 19.7845 0.917599 19.7631 1.01331 19.7188L19.5843 11.1476C19.8386 11.0304 20 10.7776 20 10.499C20 10.2205 19.8386 9.9676 19.5857 9.85046Z"
-                  fill="white"
+            <address class="address">г. Санкт-Петербург, ул. Ленина, 9</address>
+            <ul class="social list-reset">
+              <li class="social__item">
+                <a
+                  href="#"
+                  class="social__link social__link--fb"
+                  aria-label="Наш фейсбук"
+                ></a>
+              </li>
+              <li class="social__item">
+                <a
+                  href="#"
+                  class="social__link social__link--vk"
+                  aria-label="Наш вконтакте"
+                ></a>
+              </li>
+              <li class="social__item">
+                <a
+                  href="#"
+                  class="social__link social__link--insta"
+                  aria-label="Наш инстаграм"
+                ></a>
+              </li>
+              <li class="social__item">
+                <a
+                  href="#"
+                  class="social__link social__link--tw"
+                  aria-label="Наш твиттер"
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts__right">
+            <div class="contacts-form-wrapper">
+              <h2 class="contacts__title blog-title">Напишите нам</h2>
+              <form action="#" class="callback-form">
+                <input
+                  type="text"
+                  class="form-input callback-form__input"
+                  placeholder="Ваше имя"
                 />
-              </g>
-              <defs>
-                <clipPath id="clip0">
-                  <rect
+                <input
+                  type="tel"
+                  class="form-input callback-form__input"
+                  placeholder="Ваш телефон"
+                />
+                <textarea
+                  class="form-input callback-form__textarea"
+                  placeholder="Сообщение..."
+                ></textarea>
+                <button class="callback-form__btn form-btn btn-reset">
+                  <span>Отправить</span>
+                  <svg
                     width="20"
-                    height="20"
-                    fill="white"
-                    transform="translate(0 0.5)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
-          </button>
-        </form>
-
+                    height="21"
+                    viewBox="0 0 20 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M19.5857 9.85046L1.01474 1.27924C0.719033 1.14496 0.366184 1.22496 0.160475 1.47924C-0.046663 1.73352 -0.0538057 2.09494 0.143332 2.35636L6.25033 10.499L0.143332 18.6417C-0.0538057 18.9031 -0.046663 19.2659 0.159046 19.5188C0.297614 19.6917 0.504752 19.7845 0.714747 19.7845C0.816173 19.7845 0.917599 19.7631 1.01331 19.7188L19.5843 11.1476C19.8386 11.0304 20 10.7776 20 10.499C20 10.2205 19.8386 9.9676 19.5857 9.85046Z"
+                        fill="white"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect
+                          width="20"
+                          height="20"
+                          fill="white"
+                          transform="translate(0 0.5)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
       </section>
     </main>
     <footer class="footer">
@@ -157,10 +202,10 @@
           </ul>
         </nav>
         <small class="footer__copy"
-          >ООО “Организация” 2021. Все права защищены</small>
+          >ООО “Организация” 2021. Все права защищены</small
+        >
       </div>
     </footer>
-    <script src="js/main.js">
-    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -41,7 +41,7 @@
     margin-right: 20px;
   }
   .contacts {
-    padding: 70px 0;
+    padding: 120px 0;
   }
 
   .contacts__left {
@@ -130,7 +130,8 @@
     display: none;
   }
   .header-search__btn {
-    width: 74px;
+    width: 20%;
+    margin-top: 22px;
   }
   .header-search__input {
     margin-right: 10px;
