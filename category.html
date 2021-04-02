@@ -12,29 +12,6 @@
     <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
-    <div class="menu">
-      <button class="menu__close btn-reset" aria-label="close menu">
-        <span class="menu__close-line"></span>
-        <span class="menu__close-line"></span>
-      </button>
-      <nav class="menu__nav">
-        <ul class="menu__ul list-reset">
-          <li class="menu__li">
-            <a href="index.html" class="menu__link">Главная</a>
-          </li>
-          <li class="menu__li">
-            <a href="about-us.html" class="menu__link">О нас</a>
-          </li>
-          <li class="menu__li">
-            <a href="contacts.html" class="menu__link">Контакты</a>
-          </li>
-          <li class="menu__li">
-            <a href="#" class="menu__link search-link--mobile">Поиск</a>
-          </li>
-          <a href="tel:+798788787" class="phone phone-menu">+7 (987) 887-87</a>
-        </ul>
-      </nav>
-    </div>
     <header class="header">
       <div class="container header__container">
         <a href="index.html" class="logo header__logo">
@@ -46,19 +23,19 @@
               <li class="nav__item">
                 <a class="nav__link nav__link--current">Главная</a>
               </li>
-              <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+              <li class="nav__item"><a href="#" class="nav__link" target="_blank">О нас</a></li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Контакты</a>
+                <a href="#" class="nav__link" target="_blank">Контакты</a>
               </li>
               <li class="nav__item">
                 <a href="#" class="nav__link search-link">Поиск</a>
               </li>
             </ul>
           </nav>
-          <a href="tel:+798788787" class="phone">+7 (987) 887-87</a>
+          <a href="tel:+798788787" class="phone__item">+7 (987) 887-87</a>
         </div>
         <div class="humburger">
-          <button class="btn-menu btn-reset" aria-label="Open menu">
+          <button class="btn-menu btn-reset" type="button" aria-label="Open menu" data-popup="popup-menu">
             <span class="btn-menu__box">
               <span class="btn-menu__inner"></span>
             </span>
@@ -99,11 +76,11 @@
         <div class="container content__container">
           <div class="posts">
             <article class="blog-post blog-post--main">
-              <a href="category.html" class="blog-post__category"
+              <a href="category.html" class="blog-post__category" target="_blank"
                 >Категория 4</a
               >
               <h3 class="blog-post__title blog-title">
-                <a href="post-hero.html" class="blog-post__link">
+                <a href="post-hero.html" class="blog-post__link" target="_blank">
                   Управление ИТ-активами – скучная рутина или творческая задача?
                 </a>
               </h3>
@@ -118,11 +95,11 @@
             <ul class="post-grid list-reset">
               <li class="post-grid__item">
                 <article class="blog-post">
-                  <a href="category.html" class="blog-post__category"
+                  <a href="category.html" class="blog-post__category" target="_blank"
                     >Категория 4</a
                   >
                   <h3 class="blog-post__title blog-title">
-                    <a href="post-hero.html" class="blog-post__link">
+                    <a href="post-hero.html" class="blog-post__link" target="_blank">
                       Управление ИТ-активами – скучная рутина или творческая
                       задача?
                     </a>
@@ -139,11 +116,11 @@
               </li>
               <li class="post-grid__item">
                 <article class="blog-post">
-                  <a href="category.html" class="blog-post__category"
+                  <a href="category.html" class="blog-post__category" target="_blank"
                     >Категория 4</a
                   >
                   <h3 class="blog-post__title blog-title">
-                    <a href="post-luck.html" class="blog-post__link">
+                    <a href="post-luck.html" class="blog-post__link" target="_blank">
                       ITAM&SAMDay – самая настоящая удача!
                     </a>
                   </h3>
@@ -159,7 +136,7 @@
                     >Категория 4</a
                   >
                   <h3 class="blog-post__title blog-title">
-                    <a href="post-hero.html" class="blog-post__link">
+                    <a href="post-hero.html" class="blog-post__link" target="_blank">
                       Управление ИТ-активами – скучная рутина или творческая
                       задача?
                     </a>
@@ -169,7 +146,7 @@
               </li>
               <li class="post-grid__item">
                 <article class="blog-post">
-                  <a href="category.html" class="blog-post__category"
+                  <a href="category.html" class="blog-post__category" target="_blank"
                     >Категория 4</a
                   >
                   <h3 class="blog-post__title blog-title">
@@ -183,11 +160,11 @@
               </li>
               <li class="post-grid__item">
                 <article class="blog-post">
-                  <a href="category.html" class="blog-post__category"
+                  <a href="category.html" class="blog-post__category" target="_blank"
                     >Категория 4</a
                   >
                   <h3 class="blog-post__title blog-title">
-                    <a href="post-luck.html" class="blog-post__link">
+                    <a href="post-luck.html" class="blog-post__link" target="_blank">
                       ITAM&SAMDay – самая настоящая удача!
                     </a>
                   </h3>
@@ -196,11 +173,11 @@
               </li>
               <li class="post-grid__item">
                 <article class="blog-post">
-                  <a href="category.html" class="blog-post__category"
+                  <a href="category.html" class="blog-post__category" target="_blank"
                     >Категория 4</a
                   >
                   <h3 class="blog-post__title blog-title">
-                    <a href="post-hero.html" class="blog-post__link">
+                    <a href="post-hero.html" class="blog-post__link" target="_blank">
                       Управление ИТ-активами – скучная рутина или творческая
                       задача?
                     </a>
@@ -217,9 +194,9 @@
               </li>
               <li class="post-grid__item">
                 <article class="blog-post">
-                  <a href="" class="blog-post__category">Категория 4</a>
+                  <a href="category.html" class="blog-post__category" target="_blank">Категория 4</a>
                   <h3 class="blog-post__title blog-title">
-                    <a href="post-luck.html" class="blog-post__link">
+                    <a href="post-luck.html" class="blog-post__link" target="_blank">
                       ITAM&SAMDay – самая настоящая удача!
                     </a>
                   </h3>
@@ -232,7 +209,7 @@
                     >Категория 4</a
                   >
                   <h3 class="blog-post__title blog-title">
-                    <a href="post-hero.html" class="blog-post__link">
+                    <a href="post-hero.html" class="blog-post__link" target="_blank">
                       Управление ИТ-активами – скучная рутина или творческая
                       задача?
                     </a>
@@ -242,11 +219,11 @@
               </li>
               <li class="post-grid__item">
                 <article class="blog-post">
-                  <a href="category.html" class="blog-post__category"
+                  <a href="category.html" class="blog-post__category" target="_blank"
                     >Категория 4</a
                   >
                   <h3 class="blog-post__title blog-title">
-                    <a href="post-hero.html" class="blog-post__link">
+                    <a href="post-hero.html" class="blog-post__link" target="_blank">
                       Управление ИТ-активами – скучная рутина или творческая
                       задача?
                     </a>
@@ -256,11 +233,11 @@
               </li>
               <li class="post-grid__item">
                 <article class="blog-post">
-                  <a href="category.html" class="blog-post__category">
+                  <a href="category.html" class="blog-post__category" target="_blank">
                     Категория 4</a
                   >
                   <h3 class="blog-post__title blog-title">
-                    <a href="post-luck.html" class="blog-post__link">
+                    <a href="post-luck.html" class="blog-post__link" target="_blank">
                       ITAM&SAMDay – самая настоящая удача!
                     </a>
                   </h3>
@@ -294,7 +271,7 @@
                 <li class="popular-posts__item">
                   <article class="blog-post popular-post__article">
                     <h3 class="blog-post__title blog-title">
-                      <a href="post-luck.html" class="blog-post__link">
+                      <a href="post-luck.html" class="blog-post__link" target="_blank">
                         ITAM&SAMDay – самая настоящая удача!
                       </a>
                     </h3>
@@ -304,7 +281,7 @@
                 <li class="popular-posts__item">
                   <article class="blog-post popular-post__article">
                     <h3 class="blog-post__title blog-title">
-                      <a href="post-secrets.html" class="blog-post__link">
+                      <a href="post-secrets.html" class="blog-post__link" target="_blank">
                         Секреты лицензирования. Всё, что вы хотели знать про
                         Microsoft, SAP и Oracle, но не знали, у кого спросить
                         ...
@@ -316,7 +293,7 @@
                 <li class="popular-posts__item">
                   <article class="blog-post popular-post__article">
                     <h3 class="blog-post__title blog-title">
-                      <a href="post-management.html" class="blog-post__link">
+                      <a href="post-management.html" class="blog-post__link" target="_blank">
                         Менеджмент XXI века. Надо ли готовиться к изменениям или
                         мы давно уже должны были измениться?
                       </a>
@@ -382,7 +359,7 @@
               <a href="#" class="nav__link">Новости</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Контакты</a>
+              <a href="contacts.html" class="nav__link" target="_blank">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -391,6 +368,31 @@
         >
       </div>
     </footer>
+         <!-- popup-menu -->
+    <div class="popup popup-menu">
+      <div class="popup__wrapper">
+        <div class="popup__inner">
+              <div class="popup__content popup__content--fluid popup__content--centered">
+                <button class="btn-close btn-reset popup__btn-close popup-close"></button>
+                <nav class="mobile-menu__nav popup__mobile-menu">
+                  <ul class="mobile-menu__ul">
+                    <li class="mobile-menu__li"><a href="index.html" class="mobile-menu__link">Главная</a></li>
+                    <li class="mobile-menu__li"><a href="about-us.html" class="mobile-menu__link">О нас</a></li>
+                    <li class="mobile-menu__li"><a href="contacts.html" class="mobile-menu__link">Контакты</a></li>
+                    <li class="mobile-menu__li"><a href="#" class="mobile-menu__link search-link--mobile popup-close">Поиск</a></li>
+                   
+                  </ul>
+                </nav>
+                <div class="phone"> 
+                  <a href="tel:+798788787" class="phone__item phone-menu">+7 (987) 887-87</a>
+                </div>
+                  </div>
+</div>
+              </div>
+         
+  </div>
+<!-- /. popup-menu -->
+  <script src="js/popup.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

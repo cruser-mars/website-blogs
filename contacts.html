@@ -12,29 +12,6 @@
     <link rel="stylesheet" href="css/category.css" />
   </head>
   <body>
-    <div class="menu">
-      <button class="menu__close btn-reset" aria-label="close menu">
-        <span class="menu__close-line"></span>
-        <span class="menu__close-line"></span>
-      </button>
-      <nav class="menu__nav">
-        <ul class="menu__ul list-reset">
-          <li class="menu__li">
-            <a href="index.html" class="menu__link">Главная</a>
-          </li>
-          <li class="menu__li">
-            <a href="about-us.html" class="menu__link">О нас</a>
-          </li>
-          <li class="menu__li">
-            <a href="contacts.html" class="menu__link">Контакты</a>
-          </li>
-          <li class="menu__li">
-            <a href="#" class="menu__link search-link--mobile">Поиск</a>
-          </li>
-          <a href="tel:+798788787" class="phone phone-menu">+7 (987) 887-87</a>
-        </ul>
-      </nav>
-    </div>
     <header class="header">
       <div class="container header__container">
         <a href="index.html" class="logo header__logo">
@@ -46,19 +23,19 @@
               <li class="nav__item">
                 <a href="index.html" class="nav__link">Главная</a>
               </li>
-              <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+              <li class="nav__item"><a href="about-us.html" class="nav__link">О нас</a></li>
               <li class="nav__item">
-                <a href="#" class="nav__link nav__link--current">Контакты</a>
+                <a href="contacts.html" class="nav__link nav__link--current">Контакты</a>
               </li>
               <li class="nav__item">
                 <a href="#" class="nav__link search-link">Поиск</a>
               </li>
             </ul>
           </nav>
-          <a href="tel:+798788787" class="phone">+7 (987) 887-87</a>
+          <a href="tel:+798788787" class="phone__item">+7 (987) 887-87</a>
         </div>
         <div class="humburger">
-          <button class="btn-menu btn-reset" aria-label="Open menu">
+          <button class="btn-menu btn-reset" type="button" aria-label="Open menu" data-popup="popup-menu">
             <span class="btn-menu__box">
               <span class="btn-menu__inner"></span>
             </span>
@@ -103,30 +80,30 @@
             <ul class="social list-reset">
               <li class="social__item">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/"
                   class="social__link social__link--fb"
-                  aria-label="Наш фейсбук"
+                  aria-label="Наш фейсбук" target="_blank"
                 ></a>
               </li>
               <li class="social__item">
                 <a
                   href="#"
                   class="social__link social__link--vk"
-                  aria-label="Наш вконтакте"
+                  aria-label="Наш вконтакте" target="_blank"
                 ></a>
               </li>
               <li class="social__item">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/"
                   class="social__link social__link--insta"
-                  aria-label="Наш инстаграм"
+                  aria-label="Наш инстаграм" target="_blank"
                 ></a>
               </li>
               <li class="social__item">
                 <a
-                  href="#"
+                  href="https://linkedin.com/"
                   class="social__link social__link--tw"
-                  aria-label="Наш твиттер"
+                  aria-label="Наш твиттер" target="_blank"
                 ></a>
               </li>
             </ul>
@@ -194,10 +171,10 @@
             </li>
             <li class="nav__item"><a href="#" class="nav__link">Галерея</a></li>
             <li class="nav__item">
-              <a href="index.html" class="nav__link">Новости</a>
+              <a href="#" class="nav__link">Новости</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link nav__link--current">Контакты</a>
+              <a href="contacts.html" class="nav__link nav__link--current">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -206,6 +183,31 @@
         >
       </div>
     </footer>
+          <!-- popup-menu -->
+    <div class="popup popup-menu">
+      <div class="popup__wrapper">
+        <div class="popup__inner">
+              <div class="popup__content popup__content--fluid popup__content--centered">
+                <button class="btn-close btn-reset popup__btn-close popup-close"></button>
+                <nav class="mobile-menu__nav popup__mobile-menu">
+                  <ul class="mobile-menu__ul">
+                    <li class="mobile-menu__li"><a href="index.html" class="mobile-menu__link">Главная</a></li>
+                    <li class="mobile-menu__li"><a href="about-us.html" class="mobile-menu__link">О нас</a></li>
+                    <li class="mobile-menu__li"><a href="contacts.html" class="mobile-menu__link">Контакты</a></li>
+                    <li class="mobile-menu__li"><a href="#" class="mobile-menu__link search-link--mobile popup-close">Поиск</a></li>
+                   
+                  </ul>
+                </nav>
+                <div class="phone"> 
+                  <a href="tel:+798788787" class="phone__item phone-menu">+7 (987) 887-87</a>
+                </div>
+                  </div>
+</div>
+              </div>
+         
+  </div>
+<!-- /. popup-menu -->
+  <script src="js/popup.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

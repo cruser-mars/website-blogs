@@ -111,7 +111,7 @@
   .post-links__link--prev {
     margin-bottom: 20px;
   }
-  .phone {
+  .phone__item {
     display: none;
   }
   .phone-menu {
@@ -136,26 +136,41 @@
   .header-search__input {
     margin-right: 10px;
   }
+
   .header-search__form {
-padding-top: 25px;
+    padding-top: 25px;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .category-banner__title {
     font-size: 30px;
   }
+
+  .popup__inner {
+    padding: 0;
+  }
+
+  .popup__content {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 0;
+    padding-top: 100px;
+  }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .sub-form {
     padding: 0;
     display: block;
   }
-
   .sub-form__input {
     margin-right: 0;
     margin-bottom: 21px;
   }
+}
+
+@media (max-width: 375px) {
   .contacts-form-wrapper {
     padding: 30px;
   }
