@@ -686,7 +686,7 @@ body {
 
 .popup {
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
@@ -721,6 +721,7 @@ body {
   margin: 0 auto;
   position: relative;
   border-radius: 20px;
+  min-height: 100vh;
 }
 
 .popup__content--fluid {
