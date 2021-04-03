@@ -721,7 +721,6 @@ body {
   margin: 0 auto;
   position: relative;
   border-radius: 20px;
-  min-height: 100vh;
 }
 
 .popup__content--fluid {
